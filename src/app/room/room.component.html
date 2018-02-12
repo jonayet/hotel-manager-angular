@@ -1,0 +1,15 @@
+<mat-card>
+  <mat-checkbox color="primary"></mat-checkbox>
+  <mat-card-header>
+    <mat-card-title>{{room.label}}</mat-card-title>
+    <mat-card-subtitle>{{booking.name}}</mat-card-subtitle>
+    <mat-card-subtitle>{{booking.checkin}}</mat-card-subtitle>
+    <mat-card-subtitle>{{booking.checkout}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+
+  </mat-card-content>
+  <mat-card-actions color="primary">
+      <mat-icon [textContent]="room.isAvailable ? 'check_circle' : 'block'"></mat-icon>
+  </mat-card-actions>
+</mat-card>

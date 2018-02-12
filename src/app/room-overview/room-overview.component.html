@@ -1,0 +1,9 @@
+<div>
+  Room overview
+  <div *ngFor="let room of rooms | async">
+      <app-room [room]="room" [booking]="room.booking"></app-room>
+  </div>
+  <button mat-fab color="primary" (click)="addBooking()">
+      <mat-icon style="font-size: 2em">add_circle</mat-icon>
+  </button>
+</div>
