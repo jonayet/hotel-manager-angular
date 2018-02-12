@@ -1,5 +1,8 @@
 # HotelManagerAngular
 
+## Demo
+https://jonayet.github.io/hotel-manager-angular
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.6.
 
 ## Development server
